@@ -14,6 +14,7 @@ A comprehensive MATLAB graphical user interface for numerical integration using 
 
 ---
 
+
 ## Table of Contents
 
 - [Features](#features)
@@ -21,6 +22,25 @@ A comprehensive MATLAB graphical user interface for numerical integration using 
 - [Usage](#usage)
 - [Examples](#examples)
 - [Requirements](#requirements)
+
+---
+
+## What is Monte Carlo Integration?
+
+Monte Carlo integration is a numerical method that uses random sampling to estimate integrals.
+
+Instead of calculating the exact area under a curve, the method works by:
+
+1. Generating random points in the integration region.
+2. Evaluating the function at those points.
+3. Averaging the results to approximate the mean value of the function.
+4. Scaling by the region size (interval length, rectangle area, etc.) to estimate the integral.
+
+- The more samples you use, the closer the estimate gets to the true value.
+- This method is especially powerful for high-dimensional problems where traditional techniques are inefficient.
+
+---
+
 
 ## Features
 
